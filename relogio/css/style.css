@@ -1,0 +1,56 @@
+@font-face {
+    font-family: relogio;
+    src: url(/fontes/Enchanted\ Land.otf);
+}
+
+
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 12px black;
+    font-family: relogio;
+    justify-content: center;
+    color: #13c8f1;
+    font-size: 40px;
+    
+}
+
+
+body{
+    height: 100vh;
+    background: url(/images/miyamoto.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    background: rgba(26, 224, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: fit-content;
+    backdrop-filter: blur(2px);
+    border-radius: 80%;
+    box-shadow: 1px 1px 8px rgb(5, 178, 241);
+}
+
+.central div{
+    background: rgba(0, 55, 255, 0.306);
+    color: rgb(230, 232, 236);
+    padding: 20px;
+    border-radius: 80%;
+    font-size: 30px;
+    font-family: relogio;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.central span{
+    font-size: 40px;
+    color: rgb(241, 236, 245);
+    font-family: relogio;
+}
